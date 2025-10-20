@@ -1,0 +1,11 @@
+<?php
+$student = array(
+    "name" => "Phoebe",
+    "age" => 22,
+    "course" => "BSIT"
+);
+
+$jsonData = json_encode($student);
+
+echo $jsonData;
+?>
