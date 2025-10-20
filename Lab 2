@@ -1,0 +1,10 @@
+<?php
+$jsonString = '{"name":"Phoebe","age":22,"email":"phoebe@email.com"}';
+
+$studentObject = json_decode($jsonString);
+
+$studentArray = json_decode($jsonString, true);
+
+echo "Object: " . $studentObject->name . "<br>";
+echo "Array: " . $studentArray['email'];
+?>
