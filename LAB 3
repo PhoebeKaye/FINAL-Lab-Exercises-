@@ -1,0 +1,12 @@
+<?php
+header('Content-Type: application/json');
+
+$user = array(
+    "id" => 1297,
+    "name" => "Phoebe",
+    "email" => "Phoebe@email.com",
+    "status" => "active"
+);
+
+echo json_encode($user);
+?>
